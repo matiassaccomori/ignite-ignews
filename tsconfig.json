@@ -23,8 +23,9 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/components/SubscribeButton/SubscriveButton.spec.tsx.ignore"  ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "**/tests/*.test.ts"
   ]
 }
